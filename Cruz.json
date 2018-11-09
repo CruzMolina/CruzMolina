@@ -1,0 +1,16 @@
+{
+  "name": "Cruz Molina",
+  "priorities" : [
+    "Family", "Work"
+  ],
+  "work" : [
+    "@trufflesuite", "@consensys"
+  ],
+  "tech" : [
+    "JavaScript", "Golang", "Solidity",
+    "Node.js", "HTML", "CSS", "React"
+  ],
+  "titles" : [
+    "Truffle Blockchain Tools Engineer"
+  ]
+}
