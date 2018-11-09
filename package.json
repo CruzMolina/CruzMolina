@@ -1,0 +1,27 @@
+{
+  "name": "cruzmolina",
+  "version": "1.0.0",
+  "description": "Cruz Molina's Bio & Contact Info",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "bin": {
+    "CruzMolina": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CruzMolina/CruzMolina"
+  },
+  "keywords": [
+    "person",
+    "contact"
+  ],
+  "author": "Cruz Molina",
+  "license": "MIT",
+  "dependencies": {
+    "cfonts": "^2.2.3",
+    "inquirer": "^6.2.0",
+    "opn": "^5.4.0"
+  }
+}
