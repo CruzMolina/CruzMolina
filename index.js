@@ -29,7 +29,8 @@ cfonts.say("Cruz Molina", {
 
 console.log(`Hello! My name is Cruz Molina.
 I specialize in Open Source Software Development.
-I currently co-maintain Truffle, a JavaScript blockchain development framework.
+I currently co-maintain Truffle,
+a JavaScript blockchain development framework.
 Previously @ConsenSys & @Crowdbotics.
 Thanks for stopping by!
 `);
