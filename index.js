@@ -6,10 +6,13 @@ const opn = require("opn");
 
 const actions = {
   Truffle() {
-    opn("https://truffleframework.com/");
+    opn("https://www.trufflesuite.com/");
   },
   ConsenSys() {
     opn("https://consensys.net/");
+  },
+  Crowdbotics() {
+    opn("https://www.crowdbotics.com/");
   },
   GitHub() {
     opn("https://github.com/cruzmolina");
@@ -26,9 +29,8 @@ cfonts.say("Cruz Molina", {
 
 console.log(`Hello! My name is Cruz Molina.
 I specialize in Open Source Software Development.
-I work at Truffle on the Truffle Blockchain Development Framework.
-I'm also a member of ConsenSys, a venture production studio
-focused on distributed ledger technology.
+I currently co-maintain Truffle, a JavaScript blockchain development framework.
+Previously @ConsenSys & @Crowdbotics.
 Thanks for stopping by!
 `);
 
@@ -41,6 +43,7 @@ inquirer
       choices: [
         "Truffle",
         "ConsenSys",
+        "Crowdbotics",
         "GitHub",
         "Quit"
       ]
