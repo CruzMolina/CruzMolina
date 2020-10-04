@@ -22,12 +22,12 @@ const actions = {
   },
   Quit() {
     process.exit(1);
-  }
+  },
 };
 
 cfonts.say("Cruz Molina", {
   font: "chrome",
-  colors: ["blue", "white", "blue"]
+  colors: ["blue", "white", "blue"],
 });
 
 console.log(`Hello! My name is Cruz Molina.
@@ -49,11 +49,11 @@ inquirer
         "ConsenSys",
         "Crowdbotics",
         "GitHub",
-        "Quit"
-      ]
-    }
+        "Quit",
+      ],
+    },
   ])
-  .then(answers => {
+  .then((answers) => {
     actions[answers.choice]();
     process.exit(1);
   });
