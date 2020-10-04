@@ -1,16 +1,22 @@
 {
   "name": "Cruz Molina",
-  "priorities" : [
-    "Family", "Work"
+  "priorities": ["Family", "Work"],
+  "work": ["@BlockchainsLLC", "@trufflesuite", "@Consensys", "@crowdbotics"],
+  "tech": [
+    "JavaScript",
+    "TypeScript",
+    "Solidity",
+    "Golang",
+    "Node.js",
+    "React",
+    "React Native",
+    "Next.js",
+    "HTML",
+    "CSS"
   ],
-  "work" : [
-    "@trufflesuite", "@consensys"
-  ],
-  "tech" : [
-    "JavaScript", "Golang", "Solidity",
-    "Node.js", "HTML", "CSS", "React"
-  ],
-  "titles" : [
-    "Truffle Blockchain Tools Engineer"
+  "titles": [
+    "Blockchain Integration Engineer",
+    "Blockchain Tools Engineer",
+    "Full Stack Blockchain Engineer"
   ]
 }
