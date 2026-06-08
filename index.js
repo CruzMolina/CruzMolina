@@ -5,20 +5,20 @@ const cfonts = require("cfonts");
 const opn = require("opn");
 
 const actions = {
-  Blockchains() {
-    opn("https://www.blockchains.com/");
+  LinkedIn() {
+    opn("https://www.linkedin.com/in/cruzmolina/");
   },
-  Truffle() {
-    opn("https://www.trufflesuite.com/");
-  },
-  ConsenSys() {
-    opn("https://consensys.net/");
-  },
-  Crowdbotics() {
-    opn("https://www.crowdbotics.com/");
+  X() {
+    opn("https://x.com/CruzAMolina");
   },
   GitHub() {
     opn("https://github.com/cruzmolina");
+  },
+  "parallel-revm-lab"() {
+    opn("https://github.com/CruzMolina/parallel-revm-lab");
+  },
+  Truffle() {
+    opn("https://trufflesuite.com/");
   },
   Quit() {
     process.exit(1);
@@ -31,9 +31,13 @@ cfonts.say("Cruz Molina", {
 });
 
 console.log(`Hello! My name is Cruz Molina.
-I am currently a Full Stack Blockchain Engineer,
-focused on Asset & Identity Management for Blockchains.
-Previously @TruffleSuite, @ConsenSys & @Crowdbotics.
+I am a senior/staff software engineer focused on
+crypto-fintech infrastructure, backend systems, wallets,
+DeFi/trading rails, developer tooling, and protocol-adjacent
+product engineering.
+
+Recently @KrakenFX / Ink. Previously @TruffleSuite,
+@Opyn, @InsrtLabs, and @ConsenSys.
 Thanks for stopping by!
 `);
 
@@ -44,11 +48,11 @@ inquirer
       name: "choice",
       message: "Where would you like to go?",
       choices: [
-        "Blockchains",
-        "Truffle",
-        "ConsenSys",
-        "Crowdbotics",
+        "LinkedIn",
+        "X",
         "GitHub",
+        "parallel-revm-lab",
+        "Truffle",
         "Quit",
       ],
     },

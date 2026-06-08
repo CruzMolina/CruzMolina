@@ -1,22 +1,24 @@
 {
   "name": "Cruz Molina",
   "priorities": ["Family", "Work"],
-  "work": ["@BlockchainsLLC", "@trufflesuite", "@Consensys", "@crowdbotics"],
+  "work": ["@KrakenFX", "@trufflesuite", "@Opyn", "@InsrtLabs", "@Consensys"],
   "tech": [
+    "Rust",
     "JavaScript",
     "TypeScript",
     "Solidity",
     "Golang",
     "Node.js",
     "React",
-    "React Native",
     "Next.js",
-    "HTML",
-    "CSS"
+    "EVM",
+    "Wallets",
+    "DeFi"
   ],
   "titles": [
-    "Blockchain Integration Engineer",
-    "Blockchain Tools Engineer",
-    "Full Stack Blockchain Engineer"
+    "Senior Software Engineer",
+    "Staff Software Engineer",
+    "Crypto Infrastructure Engineer",
+    "Developer Tools Engineer"
   ]
 }

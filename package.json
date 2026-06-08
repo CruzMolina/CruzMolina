@@ -1,7 +1,7 @@
 {
   "name": "cruzmolina",
   "version": "1.0.0",
-  "description": "Cruz Molina's Bio & Contact Info",
+  "description": "Cruz Molina's bio, selected work, and contact info",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -15,7 +15,10 @@
   },
   "keywords": [
     "person",
-    "contact"
+    "contact",
+    "crypto",
+    "blockchain",
+    "software-engineer"
   ],
   "author": "Cruz Molina",
   "license": "MIT",
