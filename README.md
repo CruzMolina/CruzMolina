@@ -2,7 +2,7 @@
 
 Senior/staff software engineer focused on crypto-fintech infrastructure: backend systems, wallets, DeFi/trading rails, developer tooling, and protocol-adjacent product engineering.
 
-Recently: Kraken / Ink, Truffle, Opyn, Insrt, and Consensys.
+Most recently: Kraken / Ink. Previously: Truffle, Opyn, Insrt, and Consensys.
 
 I am interested in remote senior/staff IC roles where real assets, users, and production systems meet: backend/platform engineering, wallet infrastructure, DeFi/trading systems, Ethereum/L2 tooling, and pragmatic contract-to-hire or paid trial paths.
 
